@@ -163,7 +163,7 @@ allure serve allure-results
 
 ## 📊 Allure Report Features
 
-![Allure Summary](Docs/allure_summary.png)
+![Allure Summary](Docs/allure_summary.png%20.png)
 ![Behaviors](Docs/behaviors.png)
 
 - This project has 21 automated test cases covering authentication, registration, job flow and profile management. Out of 21 tests, 17 passed and 4 failed. The 4 failures are not mistakes in the automation code — the application itself is accepting invalid email format and invalid phone number without showing any validation error. These are real bugs in the application. I found them through automation and documented them in the Allure report under the Product Defects category.
