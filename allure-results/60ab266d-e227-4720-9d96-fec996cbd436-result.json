@@ -1,0 +1,1 @@
+{"name": "Registration with invalid email", "status": "passed", "start": 1777140238688, "stop": 1777140240495, "uuid": "6288f70e-57d1-4485-b240-60e6fb7f2e29", "testCaseId": "43b47a0a0d3ae1d3708abd279b441e2f", "fullName": "tests.test_authentication#test_invalid_email_registration", "titlePath": ["tests", "test_authentication.py"]}
