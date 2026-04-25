@@ -28,29 +28,29 @@ A end-to-end UI automation testing framework built for [labsqajobs.qaharbor.com]
 ```
 Final_Project/
 │
-├── pages/                        # Page Object Model classes
-│   ├── base_page.py              # Parent class — shared actions (click, fill)
-│   ├── login_page.py             # Login & registration navigation
-│   ├── registration_page.py      # Candidate & recruiter registration forms
-│   ├── jobs_page.py              # Job search, filter, save actions
-│   └── profile_page.py           # Profile navigation & password change
+├── pages/                               # Page Object Model classes
+│   ├── base_page.py                     # Parent class — shared actions (click, fill)
+│   ├── login_page.py                    # Login & registration navigation
+│   ├── registration_page.py             # Candidate & recruiter registration forms
+│   ├── jobs_page.py                     # Job search, filter, save actions
+│   └── profile_page.py                  # Profile navigation & password change
 │
-├── utils/                        # Utility & helper modules
-│   ├── test_data.py              # Static credentials + dynamic data generators
-│   ├── helpers.py                # Timestamp-based unique user/recruiter generators
-│   └── allure_utils.py           # Screenshot & log attachment helpers
+├── utils/                               # Utility & helper modules
+│   ├── test_data.py                     # Static credentials + dynamic data generators
+│   ├── helpers.py                       # Timestamp-based unique user/recruiter generators
+│   └── allure_utils.py                  # Screenshot & log attachment helpers
 │
-├── tests/                        # All test files
-│   ├── test_authentication.py    # Login positive, login negative
-│   ├── test_registration.py      # Candidate registration positive & duplicate email
+├── tests/                               # All test files
+│   ├── test_authentication.py           # Login positive, login negative
+│   ├── test_registration.py             # Candidate registration positive & duplicate email
 │   ├── test_registration_validation.py  # Invalid email, blank fields, password mismatch, short password, invalid phone
 │   ├── test_recruiter_registration.py   # Recruiter registration & login
-│   ├── test_job_flow.py          # Job search, filter, save
-│   └── test_profile.py           # Password change & reset
+│   ├── test_job_flow.py                 # Job search, filter, save
+│   └── test_profile.py                  # Password change & reset
 │
-├── conftest.py                   # Playwright browser fixture + auto screenshot on failure
-├── requirements.txt              # Project dependencies
-└── README.md                     # Project documentation
+├── conftest.py                          # Playwright browser fixture + auto screenshot on failure
+├── requirements.txt                     # Project dependencies
+└── README.md                            # Project documentation
 ```
 
 ---
